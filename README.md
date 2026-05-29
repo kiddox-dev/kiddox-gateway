@@ -1,6 +1,6 @@
 ﻿# kiddox-gateway
 
-API Gateway ??Kong/Envoy routing, rate limiting, auth passthrough.
+API Gateway — Kong/Envoy routing, rate limiting, auth passthrough.
 
 ## Tech Stack
 
@@ -13,11 +13,11 @@ API Gateway ??Kong/Envoy routing, rate limiting, auth passthrough.
 
 ## Quick Start
 
-`ash
+```bash
 pip install -e ".[dev]"
 uvicorn app.main:app --reload --port 8000
-`
+```
 
 ## License
 
-Proprietary ??Kiddox Limited
+Proprietary — Kiddox Limited
